@@ -35,28 +35,19 @@ Edit
 
 1. Compile the C code (e.g., using `gcc`):
 
-```bash
+bash
 gcc main_gui.c readFile.c wagner_fischer.c -o spell_checker
 Run the compiled binary:
-
-bash
-Copy
-Edit
 ./spell_checker
+
 Python GUI
 Ensure tkinter is installed (usually comes with Python):
 
-bash
-Copy
-Edit
 python3 -m tkinter
 Run the GUI:
 
-bash
-Copy
-Edit
 python3 spell_gui.py
-Algorithm Overview
+#Algorithm Overview
 The Wagner-Fischer algorithm is a dynamic programming method used to calculate the minimum number of operations (insertions, deletions, substitutions) required to transform one string into another. It's commonly used in spell-checking and DNA sequence alignment.
 
 Author
